@@ -60,7 +60,7 @@ with open('IEEE-form.csv','r') as file:
 		text = msg.as_string()
 		server = smtplib.SMTP('smtp.gmail.com',587)
 		server.starttls()
-		server.login(email_sender,'programmingisfun')
+		server.login(email_sender,'*************')
 
 		server.sendmail(email_sender,email_receiver,text)
 		server.quit()
