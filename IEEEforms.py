@@ -1,6 +1,6 @@
 #NishantJadhav
 #IEEE-VIT Web-TechTeam
-#CMPN-A
+#CMPN-A  #####UPDATED FILE BUGS FIXED###
 
 import csv
 from PIL import Image,ImageDraw,ImageFont
