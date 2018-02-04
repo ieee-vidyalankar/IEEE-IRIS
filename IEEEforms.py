@@ -26,9 +26,9 @@ with open('IEEE-form.csv','r') as file:
         
 
         draw = ImageDraw.Draw(image)
-        draw.text(xy=(250,600),text= 'Nishant Jadhav',fill=(0,0,0),font = small_font)
-        draw.text(xy=(250,750),text='nish123453@gmail.com ', fill=(0,0,0),font = small_font)
-        draw.text(xy=(2000,1250),text= '0003.',fill=(0,0,0),font = big_font)
+        draw.text(xy=(250,600),text=row['Full Name'],fill=(0,0,0),font = small_font)
+        draw.text(xy=(250,750),text=row['Email ID '], fill=(0,0,0),font = small_font)
+        draw.text(xy=(2000,1250),text=row['Serial no.'],fill=(0,0,0),font = big_font)
         draw.text(xy=(500,250),text="Welcome to IRIS!!",fill=(0,0,0),font=large_font)
 
         image.paste (logo1,(2000,150))
