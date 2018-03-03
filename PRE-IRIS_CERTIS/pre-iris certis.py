@@ -65,5 +65,5 @@ def passes(file,img,textfont):
             out.show()
             shutil.copy("image.png","{}.jpg".format(names))
             sending_mail('ieeevitcertificates@gmail.com',email_receiver,names,'*********')#login credentials 
-passes('PRE IRIS Narratives of an IPS Officer (Responses) - Form Responses 1.csv','certi of preiris 2.png','CODE Bold.otf')#files as per format 
+passes('.csv','certi of preiris 2.png','CODE Bold.otf')#files as per format 
 
